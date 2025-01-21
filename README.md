@@ -1,4 +1,117 @@
 
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện tập và Vận dụng bài 16</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .highlight-red {
+            font-weight: bold;
+            color: red;
+        }
+
+        .important {
+            background-color: yellow;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .normal {
+            background-color: lightblue;
+            font-style: italic;
+            padding: 10px;
+        }
+
+        .custom-border {
+            border-top: 5px solid red;
+            border-bottom: 3px solid blue;
+            border-left: 4px dashed green;
+            border-right: 2px dotted purple;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        code {
+            background-color: #f3f3f3;
+            padding: 4px 6px;
+            border-radius: 4px;
+            font-size: 14px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><strong>Luyện tập và vận dụng bài 16</strong></h1>
+        
+        <p>
+            <strong class="highlight-red">Luyện tập 1 trang 95 Tin học 12:</strong> 
+            Phần tử HTML có thể ẩn đi trên trang web được không? Nếu có thì dùng lệnh CSS gì?
+        </p>
+        <p>- Phần tử HTML có thể được ẩn đi trên trang web.</p>
+        <p>- Để ẩn các phần tử HTML trên trang web, cần thiết lập CSS với thuộc tính <code>display: none;</code>.</p>
+
+        <p>
+            <strong class="highlight-red">Luyện tập 2 trang 95 Tin học 12:</strong> 
+            Hãy giải thích ý nghĩa định dạng sau:
+        </p>
+        <p>Ý nghĩa:</p>
+        <ul>
+            <li><code>test.test_more</code>: Đây là một bộ chọn đồng thời (class selector) áp dụng cho các phần tử có cả hai lớp tên là "test" và "test_more". Điều này có nghĩa là chỉ các phần tử có cả hai lớp tên này sẽ được áp dụng định dạng.</li>
+            <li><code>background-color: red;</code>: Đây là thuộc tính CSS được sử dụng để đặt màu nền (background-color) của các phần tử được chọn. Trong trường hợp này, màu nền của các phần tử có lớp tên "test" và "test_more" sẽ được đặt là đỏ (<code>red</code>).</li>
+        </ul>
+
+        <p>
+            <strong class="highlight-red">Vận dụng 1 trang 95 Tin học 12:</strong> 
+            Giả sử nội dung trang web của em có rất nhiều thẻ <code>p</code>, trong đó có ba đoạn mà em thấy quan trọng nhất, kí hiệu các đoạn này là P1, P2, P3. Có cách nào thiết lập định dạng CSS để có thể định dạng P1 khác biệt, P2 và P3 có cùng kiểu và cũng khác biệt không? Tất cả các đoạn còn lại có định dạng giống nhau. Hãy nêu cách giải quyết vấn đề của em.
+        </p>
+        <p>Có. Cách giải quyết:</p>
+        <ul>
+            <li>Gắn một lớp tên riêng cho P1, ví dụ: <code>&lt;p class="important"&gt;Đoạn P1&lt;/p&gt;</code>. Đây là lớp tên dùng để định dạng đoạn P1.</li>
+            <li>Gắn cùng một lớp tên cho P2 và P3, ví dụ: <code>&lt;p class="normal"&gt;Đoạn P2&lt;/p&gt;</code> và <code>&lt;p class="normal"&gt;Đoạn P3&lt;/p&gt;</code>. Đây là lớp tên dùng để định dạng đoạn P2 và P3.</li>
+            <li>Sử dụng CSS để áp dụng các định dạng khác biệt cho các lớp tên tương ứng.</li>
+        </ul>
+
+        <p>
+            <strong class="highlight-red">Vận dụng 2 trang 95 Tin học 12:</strong> 
+            Có thể thiết lập định dạng cho các khung với thông số khung, viền trên, dưới, trái, phải khác nhau được không? Em hãy tìm hiểu và trình bày cách thiết lập định dạng CSS cho các khung, viền như vậy.
+        </p>
+        <p>Có, bạn có thể thiết lập định dạng khác nhau cho các khung và viền trên, dưới, trái, phải bằng cách sử dụng thuộc tính CSS <code>border</code> và các thuộc tính liên quan.</p>
+        <p>Cách thiết lập định dạng CSS cho các khung và viền như vậy như sau:</p>
+        <ul>
+            <li>Sử dụng thuộc tính <code>border</code> để định dạng viền của khung.</li>
+            <li>Để thiết lập viền khác nhau cho các cạnh, bạn có thể sử dụng các thuộc tính <code>border-top</code>, <code>border-bottom</code>, <code>border-left</code> và <code>border-right</code> để chỉ định viền cho từng cạnh riêng biệt.</li>
+        </ul>
+        <div class="custom-border">
+            Đây là ví dụ minh họa về khung với các thông số viền khác nhau.
+        </div>
+    </div>
+</body>
+</html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
