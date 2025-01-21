@@ -1,6 +1,4 @@
 
-
-<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -150,7 +148,7 @@
 <body>
 
 <div class="container">
-    <h1>Hướng dẫn giải bài tập Tin học 12</h1>
+    <h1> Giải bài tập Tin học 12 bài 17 </h1>
 
     <p><span class="highlight">Luyện tập 1 trang 101 Tin học 12:</span> <strong>Giải thích sự khác nhau giữa hai định dạng sau:</strong></p>
     <p>• <code>#p123 + p {color: red;}</code>: áp dụng cho phần tử <code>p</code> với điều kiện phần tử <code>p</code> nằm ngay sau phần tử bất kì có mã định danh <code>#p123</code>.</p>
@@ -255,7 +253,7 @@
 <body>
 
 <div class="container">
-    <h1>Hướng dẫn giải bài tập Tin học 12</h1>
+    <h1> Giải bài tập Tin học 12 bài 18 </h1>
 
     <p><span class="highlight">Luyện tập 1 trang 105 Tin học 12:</span> <strong>Tạo trang dang_ki.html chứa biểu mẫu đăng kí câu lạc bộ và bổ sung liên kết tới trang dang_ki trong phần cuối trang của tất cả các trang.</strong></p>
     <p>Để tạo trang "dang_ki.html" chứa biểu mẫu đăng kí câu lạc bộ và bổ sung liên kết tới trang "dang_ki" trong phần cuối trang của tất cả các trang, em có thể làm như sau:</p>
