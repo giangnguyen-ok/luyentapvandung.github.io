@@ -1,7 +1,183 @@
 
 
-
+<!DOCTYPE html>
 <html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện tập bài 16 Tin học 12</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            background: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: red;
+        }
+
+        code {
+            background: #f3f3f3;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .important {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .normal {
+            background-color: lightblue;
+            font-style: italic;
+        }
+
+        .custom-border {
+            border: 2px solid black;
+            border-top: 5px solid red;
+            border-bottom: 3px solid blue;
+            border-left: 4px dashed green;
+            border-right: 2px dotted purple;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Luyện tập bài 16 Tin học 12</h1>
+
+    <p><span class="highlight">Luyện tập 1 trang 95 Tin học 12:</span> <strong>Phần tử HTML có thể ẩn đi trên trang web được không? Nếu có thì dùng lệnh CSS gì?</strong></p>
+    <p>- Phần tử HTML có thể được ẩn đi trên trang web.</p>
+    <p>- Để ẩn các phần tử HTML trên trang web, cần thiết lập CSS với thuộc tính <code>display</code> có giá trị <code>none</code>.</p>
+
+    <p><span class="highlight">Luyện tập 2 trang 95 Tin học 12:</span> <strong>Hãy giải thích ý nghĩa định dạng sau:</strong></p>
+    <p>Ý nghĩa:</p>
+    <ul>
+        <li><code>test.test_more</code>: Đây là một bộ chọn đồng thời (class selector) áp dụng cho các phần tử có cả hai lớp tên là "test" và "test_more". Điều này có nghĩa là chỉ các phần tử có cả hai lớp tên này sẽ được áp dụng định dạng.</li>
+        <li><code>background-color: red;</code>: Đây là thuộc tính CSS được sử dụng để đặt màu nền (background-color) của các phần tử được chọn. Trong trường hợp này, màu nền của các phần tử có lớp tên "test
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện tập Tin học 12</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            background: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        em {
+            font-style: italic;
+            border: 1px solid blue;
+            padding: 2px 4px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        code {
+            background: #f3f3f3;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Hướng dẫn giải bài tập Tin học 12</h1>
+
+    <p><span class="highlight">Luyện tập 1 trang 101 Tin học 12:</span> <strong>Giải thích sự khác nhau giữa hai định dạng sau:</strong></p>
+    <p>• <code>#p123 + p {color: red;}</code>: áp dụng cho phần tử <code>p</code> với điều kiện phần tử <code>p</code> nằm ngay sau phần tử bất kì có mã định danh <code>#p123</code>.</p>
+    <p>• <code>h2#p123 + p {color: red;}</code>: áp dụng cho phần tử <code>p</code> với điều kiện phần tử <code>p</code> nằm ngay sau phần tử <code>h2</code> có mã định danh <code>#p123</code>.</p>
+
+    <p><span class="highlight">Luyện tập 2 trang 101 Tin học 12:</span> <strong>Trong phần Thực hành, các tên riêng (tên người, tên tổ chức) cần được bổ sung định dạng đóng khung và in nghiêng. Em sẽ thực hiện các yêu cầu này như thế nào?</strong></p>
+    <p>• Đưa các tên riêng vào thẻ <code>&lt;em&gt;</code>.....<code>&lt;/em&gt;</code>.</p>
+    <p>• Tạo mẫu định dạng CSS cho phần tử <code>&lt;em&gt;</code>: <code>em {font-style: italic; border: 1px solid blue;}</code>.</p>
+
+    <p><span class="highlight">Vận dụng 1 trang 101 Tin học 12:</span> <strong>Tìm hiểu thêm các dạng pseudo-class khác, nêu ý nghĩa và tìm ví dụ ứng dụng thực tế cho các kiểu bộ chọn này:</strong></p>
+    <ul>
+        <li><strong>:hover</strong> - Dạng pseudo-class này được kích hoạt khi người dùng di chuột qua một phần tử. Nó cho phép em áp dụng các định dạng CSS khi phần tử đang được hover.</li>
+        <li><strong>:active</strong> - Dạng pseudo-class này được kích hoạt khi phần tử đang được nhấn (khi người dùng giữ chuột trái). Em có thể sử dụng nó để áp dụng các định dạng CSS khi phần tử đang ở trạng thái active.</li>
+        <li><strong>:focus</strong> - Dạng pseudo-class này được kích hoạt khi phần tử đang trong trạng thái focus (thường xảy ra khi người dùng click hoặc sử dụng phím tab để di chuyển đến phần tử). Em có thể sử dụng nó để áp dụng các định dạng CSS khi phần tử đang trong trạng thái focus.</li>
+        <li><strong>:nth-child()</strong> - Dạng pseudo-class này cho phép em chọn các phần tử con trong một phần tử cha dựa trên vị trí của chúng. Em có thể sử dụng nó để áp dụng các định dạng CSS cho phần tử con cụ thể.</li>
+    </ul>
+
+    <p><span class="highlight">Vận dụng 2 trang 101 Tin học 12:</span> <strong>Tìm hiểu thêm các dạng pseudo-element khác, nêu ý nghĩa và tìm ví dụ ứng dụng thực tế cho các kiểu bộ chọn này:</strong></p>
+    <ul>
+        <li><strong>::before</strong> - Dạng pseudo-element này cho phép em chèn nội dung vào phần tử trước nội dung chính của nó. Em có thể sử dụng nó để thêm các biểu tượng, ký hiệu hoặc phần tử trang trí trước một phần tử.</li>
+        <li><strong>::after</strong> - Dạng pseudo-element này cho phép em chèn nội dung vào phần tử sau nội dung chính của nó. Em có thể sử dụng nó để thêm các phần tử trang trí hoặc hiệu ứng sau một phần tử.</li>
+        <li><strong>::first-line</strong> - Dạng pseudo-element này cho phép em áp dụng các định dạng CSS cho dòng đầu tiên của một phần tử chứa nội dung văn bản. Em có thể sử dụng nó để thay đổi kiểu chữ, khoảng cách dòng hoặc các thuộc tính khác cho dòng đầu tiên.</li>
+    </ul>
+</div>
+
+</body>
+</html>     
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
