@@ -1,5 +1,4 @@
 
-<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -149,10 +148,17 @@
 </head>
 <body>
 
+
+
+
+
+
 <div class="container">
     <h1> Giải bài tập Tin học 12 bài 17 </h1>
 
-    <p><span class="highlight">Luyện tập 1 trang 101 Tin học 12:</span> <strong>Giải thích sự khác nhau giữa hai định dạng sau:</strong></p>
+    <p><span class="highlight">Luyện tập 1 trang 101 Tin học 12:</span> <strong>Giải thích sự khác nhau giữa hai định dạng sau:
+    <img src="IMG_4915.jpeg">
+    </strong></p>
     <p>• <code>#p123 + p {color: red;}</code>: áp dụng cho phần tử <code>p</code> với điều kiện phần tử <code>p</code> nằm ngay sau phần tử bất kì có mã định danh <code>#p123</code>.</p>
     <p>• <code>h2#p123 + p {color: red;}</code>: áp dụng cho phần tử <code>p</code> với điều kiện phần tử <code>p</code> nằm ngay sau phần tử <code>h2</code> có mã định danh <code>#p123</code>.</p>
 
@@ -268,7 +274,8 @@
 
     <p><span class="highlight">Luyện tập 2 trang 105 Tin học 12:</span> <strong>Thay đổi định dạng và màu sắc của phông chữ trong các vùng khi di chuyển chuột qua.</strong></p>
     <p>Để thay đổi định dạng và màu sắc của phông chữ trong các vùng khi di chuyển chuột qua, em có thể sử dụng hiệu ứng hover trong CSS.</p>
-    <p class="hover-effect">Ví dụ: Khi di chuột qua đoạn văn này, phông chữ sẽ thay đổi màu sắc và kiểu định dạng.</p>
+    <p class="hover-effect">Ví dụ:  <img src="IMG_4916.jpeg">
+    Khi di chuột qua đoạn văn này, phông chữ sẽ thay đổi màu sắc và kiểu định dạng.</p>
 
     <p><span class="highlight">Vận dụng trang 105 Tin học 12:</span> <strong>Hãy đưa ra một thiết kế khác cho website đã tạo ở phần Thực hành. Viết định dạng theo thiết kế mới và chuyển toàn bộ website sang định dạng mới.</strong></p>
     <p>Để áp dụng thiết kế mới cho trang web đã tạo trong phần Thực hành, em cần thực hiện các bước sau:</p>
