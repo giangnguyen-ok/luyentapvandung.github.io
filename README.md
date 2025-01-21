@@ -76,7 +76,9 @@
     <p>- Phần tử HTML có thể được ẩn đi trên trang web.</p>
     <p>- Để ẩn các phần tử HTML trên trang web, cần thiết lập CSS với thuộc tính <code>display</code> có giá trị <code>none</code>.</p>
 
-    <p><span class="highlight">Luyện tập 2 trang 95 Tin học 12:</span> <strong>Hãy giải thích ý nghĩa định dạng sau:</strong></p>
+    <p><span class="highlight">Luyện tập 2 trang 95 Tin học 12:</span> <strong>Hãy giải thích ý nghĩa định dạng sau:
+<img src="z6098511130906_41c8d16fc0220dc4c1cbf0771a0de042.jpg">
+</strong></p>
     <p>Ý nghĩa:</p>
     <ul>
         <li><code>test.test_more</code>: Đây là một bộ chọn đồng thời (class selector) áp dụng cho các phần tử có cả hai lớp tên là "test" và "test_more". Điều này có nghĩa là chỉ các phần tử có cả hai lớp tên này sẽ được áp dụng định dạng.</li>
