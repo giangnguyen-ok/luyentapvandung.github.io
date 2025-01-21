@@ -77,7 +77,7 @@
     <p>- Để ẩn các phần tử HTML trên trang web, cần thiết lập CSS với thuộc tính <code>display</code> có giá trị <code>none</code>.</p>
 
     <p><span class="highlight">Luyện tập 2 trang 95 Tin học 12:</span> <strong>Hãy giải thích ý nghĩa định dạng sau:
-<img src="z6098511130906_41c8d16fc0220dc4c1cbf0771a0de042.jpg">
+<img src="IMG_4913.jpeg">
 </strong></p>
     <p>Ý nghĩa:</p>
     <ul>
